@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Button1 from "./button";
 
 
 export class App extends React.Component {
@@ -13,9 +12,10 @@ export class App extends React.Component {
     }
 }
 
+export {Button1} from './button';
+
 export function mountAppComponent(element, domElement) {
     ReactDOM.render(React.createElement(element), domElement);
 }
 
 
-export {Button1 as Button1};
