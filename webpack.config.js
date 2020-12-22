@@ -30,11 +30,6 @@ module.exports = {
                     test: /[\\/]node_modules[\\/](react|react-dom)[\\/]/,
                     name: 'vendor',
                     chunks: 'all'
-                },
-                commons: {
-                    test: /[\\/]node_modules[\\/](define-properties)[\\/]/,
-                    name: 'def',
-                    chunks: 'all'
                 }
             }
         },
